@@ -1,0 +1,1 @@
+export const globalSideEffect = jest.fn(a => expect(a).toEqual(jasmine.any(String)));
